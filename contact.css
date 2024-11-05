@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #d3d3d3;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  justify-content: center;
+    gap: 90px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+
+.location {
+  text-align: center;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  width: 350px;
+  height: 200px;
+}
+
+.office-hours {
+    text-align: center;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.office-hours h2,
+.location h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.location a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.location a:hover {
+  text-decoration: underline;
+}
+
+.submit-btn {
+  padding: 0.75rem 2rem;
+  background-color: #d3d3d3;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #bbb;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between form fields */
+    width: 100%; /* Full width for the form */
+    align-items: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Full width for each input field */
+    font-size: 1rem;
+  }
+
+  /* Style for the submit button right under the message placeholder */
+  .submit-button {
+    width: 100%; /* Full width on mobile for uniform look */
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 15px; /* Space between message field and submit button */
+  }
+
+  .office-hours,
+  .map-link {
+    width: 100%; /* Full width on mobile */
+    text-align: center;
+    margin: 15px 0; /* Add spacing around sections */
+  }
+
+  .logo {
+    margin: 0 auto 15px;
+    display: block;
+  }
+}

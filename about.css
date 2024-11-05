@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #d3d3d3;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.about-section {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.info-box {
+    flex: 2;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.info-box h2 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.info-box p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.therapist-image {
+    flex: 1;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Mobile styles for screens 768px or smaller */
+@media (max-width: 768px) {
+    /* Adjustments for mobile view */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .navbar a {
+        padding: 10px 0;
+        font-size: 1.2rem;
+      }
+
+      .about-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .bio-text, .therapist-image {
+        width: 100%;
+        margin-bottom: 20px; /* Add space between elements */
+      }
+    
+      .bio-text {
+        font-size: 1rem;
+      }
+
+      .logo {
+        margin: 0 auto 15px; /* Center and add spacing */
+        display: block;
+      }
+  }

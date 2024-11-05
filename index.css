@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #d3d3d3;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.hero-banner {
+    background-color: #e0e0e0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.get-started {
+    padding: 0.8rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.get-started:hover {
+    background-color: #0056b3;
+}
+
+.why-choose-us {
+    background-color: #fff;
+    padding: 1.5rem;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.why-choose-us h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.why-choose-us ul {
+    list-style-type: none;
+}
+
+.why-choose-us li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Mobile styles for screens 768px or smaller */
+@media (max-width: 768px) {
+    /* Adjust the layout and font sizes for mobile */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .navbar a {
+        padding: 10px 0;
+        font-size: 1.2rem;
+      }
+
+      .logo {
+        margin: 0 auto 10px; /* Center the logo and add space below */
+        display: block;
+      }
+
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .hero-banner, .why-choose-us {
+        width: 100%;
+        margin-bottom: 20px; /* Add space between elements */
+      }
+    
+      .hero-banner button {
+        font-size: 1.2rem;
+        padding: 12px 20px;
+      }
+    
+      .why-choose-us {
+        font-size: 1rem;
+      }
+  }
