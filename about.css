@@ -77,6 +77,62 @@ nav a {
     color: #555;
 }
 
+.footer {
+    background-color: #3A5A40; /* Dark green */
+    color: #fff;
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo-img {
+    width: 60px;
+    height: auto;
+}
+
+.footer-tagline {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: #A3C9A8; /* Light green */
+}
+
+.footer-contact p,
+.footer-contact a {
+    color: #D1D5DB; /* Light gray */
+    font-size: 0.95rem;
+}
+
+.footer-contact a:hover {
+    color: #A3C9A8; /* Sage green */
+}
+
+.footer-social {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-copyright {
+    font-size: 0.85rem;
+    color: #A3C9A8;
+    margin-top: 1rem;
+}
+
+
 /* Mobile styles for screens 768px or smaller */
 @media (max-width: 768px) {
     /* Adjustments for mobile view */
