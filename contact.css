@@ -14,7 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #d3d3d3;
+  background-color: #9B7EBD;
 }
 
 .logo {
@@ -122,7 +122,7 @@ nav a {
 }
 
 .footer {
-    background-color: #3A5A40; /* Dark green */
+    background-color: #9B7EBD; /* Dark green */
     color: #fff;
     padding: 2rem 1.5rem;
     text-align: center;
