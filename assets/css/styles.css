@@ -15,9 +15,15 @@ h1, h2, h3, h4, a {
 
 nav a {
     color:#504f4f;
+    font-size: large;
+    transition: border 0.3s ease; /* Smooth transition for border effect */
 }
 
 nav a:hover {
     color: #007bff;
-    transition: background-color 0.3s ease, color 0.3s ease
+    border : #504f4f;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 2px solid #555; /* Border color and thickness */
+    border-radius: 4px; /* Optional: add rounded corners */
+    padding: 0.5rem 0.8rem; /* Adjust padding to accommodate border */
 }
