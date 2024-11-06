@@ -9,6 +9,10 @@ body {
     background-color: #F5F5F5;
 }
 
+header {
+    padding-bottom: 50px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -32,6 +36,11 @@ nav a {
     background-color: #e0e0e0;
     padding: 2rem;
     text-align: center;
+    background-image: url('https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
 }
 
 .banner-content {
@@ -39,6 +48,7 @@ nav a {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
+  
 }
 
 .get-started {
@@ -63,6 +73,7 @@ nav a {
     max-width: 400px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    opacity: 0.5;
 }
 
 .why-choose-us h2 {
