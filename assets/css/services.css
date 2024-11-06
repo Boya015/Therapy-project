@@ -14,12 +14,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #d3d3d3;
+    background-color: #C8A7C4;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.logo-image {
+    height: 100px;
 }
 
 nav a {
