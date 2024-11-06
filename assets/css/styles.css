@@ -23,7 +23,7 @@ nav a:hover {
     color: #007bff;
     border : #504f4f;
     transition: background-color 0.3s ease, color 0.3s ease;
-    border: 2px solid #555; /* Border color and thickness */
+    border: 2px solid #504f4f; /* Border color and thickness */
     border-radius: 4px; /* Optional: add rounded corners */
     padding: 0.5rem 0.8rem; /* Adjust padding to accommodate border */
 }
