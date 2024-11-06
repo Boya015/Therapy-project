@@ -19,6 +19,7 @@ body {
 
 .logo-image {
   height: 100px;
+  object-fit: cover;
 }
 
 nav a {

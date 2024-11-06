@@ -13,6 +13,10 @@ h1, h2, h3, h4, a {
     height: 100%;
 }
 
+nav a {
+    color:#504f4f;
+}
+
 nav a:hover {
     color: #007bff;
     transition: background-color 0.3s ease, color 0.3s ease
