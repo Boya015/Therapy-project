@@ -7,7 +7,6 @@
 
 body {
   background-color: #f5f5f5;
-  font-family: 'Playfair Display', serif;
 }
 
 .navbar {
@@ -15,11 +14,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #D4BEE4;
+  background-color: #d3d3d3;
 }
 
-.logo-img {
-    height: 100px;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 nav a {
@@ -31,11 +31,22 @@ nav a {
 
 .contact-section {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  text-align: center;
   padding: 2rem;
+}
+
+.contact-section h2{
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.contact-section-row{
+  display: flex;
   justify-content: center;
-    gap: 90px;
+  align-items: center;
+  gap: 90px;
 }
 
 .contact-form {
@@ -71,24 +82,28 @@ nav a {
   margin: 2rem 0;
 }
 
-
 .location {
   text-align: center;
   background-color: #fff;
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 8px;
+  width: 200px;
   width: 350px;
   height: 200px;
 }
 
 .office-hours {
-    text-align: center;
   background-color: #fff;
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 8px;
-  width: 200px;
+  text-wrap: nowrap;
+}
+
+.office-hours p{
+  text-align: left;
+  padding: 5px;
 }
 
 .office-hours h2,
@@ -121,63 +136,6 @@ nav a {
   background-color: #bbb;
 }
 
-.footer {
-    background-color: #9B7EBD; /* Dark green */
-    color: #fff;
-    padding: 2rem 1.5rem;
-    text-align: center;
-}
-
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.footer-logo {
-    text-align: center;
-}
-
-.footer-logo-img {
-    width: 60px;
-    height: auto;
-}
-
-.footer-tagline {
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
-    color: #A3C9A8; /* Light green */
-}
-
-
-.footer-contact p,
-.footer-contact a {
-    color: #D1D5DB; /* Light gray */
-    font-size: 0.95rem;
-}
-
-.footer-contact a:hover {
-    color: #A3C9A8; /* Sage green */
-}
-
-.footer-social {
-    display: flex;
-    gap: 0.75rem;
-}
-
-.social-icon img {
-    width: 24px;
-    height: 24px;
-}
-
-.footer-copyright {
-    font-size: 0.85rem;
-    color: #A3C9A8;
-    margin-top: 1rem;
-}
-
-
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -192,30 +150,29 @@ nav a {
   .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Spacing between form fields */
-    width: 100%; /* Full width for the form */
+    gap: 15px;
+    width: 100%;
     align-items: center;
   }
 
   .contact-form input,
   .contact-form textarea {
-    width: 100%; /* Full width for each input field */
+    width: 100%;
     font-size: 1rem;
   }
 
-  /* Style for the submit button right under the message placeholder */
   .submit-button {
-    width: 100%; /* Full width on mobile for uniform look */
+    width: 100%;
     padding: 10px;
     font-size: 1.2rem;
-    margin-top: 15px; /* Space between message field and submit button */
+    margin-top: 15px;
   }
 
   .office-hours,
   .map-link {
-    width: 100%; /* Full width on mobile */
+    width: 100%;
     text-align: center;
-    margin: 15px 0; /* Add spacing around sections */
+    margin: 15px 0;
   }
 
   .logo {

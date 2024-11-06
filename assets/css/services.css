@@ -7,7 +7,6 @@
 
 body {
     background-color: #F5F5F5;
-    font-family: 'Playfair Display', serif;
 }
 
 .navbar {
@@ -15,11 +14,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #D4BEE4;
+    background-color: #d3d3d3;
 }
 
-.logo-img {
-    height: 100px;
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 nav a {
@@ -32,8 +32,17 @@ nav a {
 .services-section {
     padding: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:  0 100px 100px 100px;
+}
+
+.services-section h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
 }
 
 .service-grid {
@@ -54,66 +63,7 @@ nav a {
     font-size: 1rem;
 }
 
-.footer {
-    background-color: #9B7EBD; /* Dark green */
-    color: #fff;
-    padding: 2rem 1.5rem;
-    text-align: center;
-}
-
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.footer-logo {
-    text-align: center;
-}
-
-.footer-logo-img {
-    width: 60px;
-    height: auto;
-}
-
-.footer-tagline {
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
-    color: #A3C9A8; /* Light green */
-}
-
-
-.footer-contact p,
-.footer-contact a {
-    color: #D1D5DB; /* Light gray */
-    font-size: 0.95rem;
-}
-
-.footer-contact a:hover {
-    color: #A3C9A8; /* Sage green */
-}
-
-.footer-social {
-    display: flex;
-    gap: 0.75rem;
-}
-
-.social-icon img {
-    width: 24px;
-    height: 24px;
-}
-
-.footer-copyright {
-    font-size: 0.85rem;
-    color: #A3C9A8;
-    margin-top: 1rem;
-}
-
-
-/* Mobile styles for screens 768px or smaller */
 @media (max-width: 768px) {
-    /* Mobile adjustments */
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -132,13 +82,13 @@ nav a {
       }
     
       .service-item {
-        width: 100%; /* Full width for each item */
-        text-align: center; /* Center-align content */
+        width: 100%;
+        text-align: center;
         font-size: 1rem;
       }
 
       .logo {
-        margin: 0 auto 15px; /* Center the logo and add spacing */
+        margin: 0 auto 15px;
         display: block;
       }
   }

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #d3d3d3;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Resources Section */
+.resources-section {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    margin:  0 100px 100px 100px;
+}
+
+.resources-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Grid Layout for Resources Cards */
+.resources-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.articles-section,
+.media-section {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #555;
+    text-align: center;
+}
+
+.articles-section h2,
+.media-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        padding: 10px 0;
+        font-size: 1.2rem;
+    }
+
+    .resources-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        margin: 0 auto 15px;
+        display: block;
+    }
+}
