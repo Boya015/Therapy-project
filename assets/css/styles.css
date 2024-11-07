@@ -1,36 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 /* Once you are happy with a section drop the styles for that section in here. 
 Keep a heading for that section to keep it neat and easy to identify.
 When you have completed the website you can combine all of the stylesheets into 
 a single stylesheet here and link this sheet instead of all of the other style sheets.
 You can also add your global styles in here in the meanwhile, just remember to link this sheet as well.*/
 
-h1, h2, h3, h4, a {
-    font-family: "Playfair Display", serif;
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Playfair Display", serif;
 }
 
 .logo-image {
-    height: 100px;
+  height: 100px;
 }
 
 nav a {
-    color:#504f4f;
-    font-size: medium;
-    transition: border 0.3s ease; /* Smooth transition for border effect */
+  color: #504f4f;
+  font-size: medium;
+  transition: border 0.3s ease; /* Smooth transition for border effect */
 }
 
 nav a:hover {
-    color: #007bff;
-    border : #504f4f;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    border: 2px solid #504f4f; /* Border color and thickness */
-    border-radius: 4px; /* Optional: add rounded corners */
-    padding: 0.5rem 0.8rem; /* Adjust padding to accommodate border */
+  color: #007bff;
+  border: #504f4f;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: 2px solid #504f4f; /* Border color and thickness */
+  border-radius: 4px; /* Optional: add rounded corners */
+  padding: 0.5rem 0.8rem; /* Adjust padding to accommodate border */
 }
 
-  .banner-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    height: 80px;
   }
+}
