@@ -15,7 +15,7 @@ h1, h2, h3, h4, a {
 
 nav a {
     color:#504f4f;
-    font-size: large;
+    font-size: medium;
     transition: border 0.3s ease; /* Smooth transition for border effect */
 }
 
