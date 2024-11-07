@@ -20,16 +20,19 @@ a {
 nav a {
   color: #504f4f;
   font-size: medium;
-  transition: border 0.3s ease; /* Smooth transition for border effect */
+  transition: border 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 0.5rem 0.8rem;
 }
 
 nav a:hover {
-  color: #007bff;
+  color: #fff;
   border: #504f4f;
   transition: background-color 0.3s ease, color 0.3s ease;
-  border: 2px solid #504f4f; /* Border color and thickness */
-  border-radius: 4px; /* Optional: add rounded corners */
-  padding: 0.5rem 0.8rem; /* Adjust padding to accommodate border */
+  border: 2px solid #504f4f;
+  border-radius: 4px;
+  padding: 0.5rem 0.8rem;
 }
 
 .banner-content {
