@@ -38,9 +38,6 @@ body {
   font-style: normal;
 }
 
-li {
- 
-}
 
 nav a {
   margin: 0 1rem;
@@ -51,9 +48,9 @@ nav a {
 
 .hero-banner {
   background-color: #e0e0e0;
-  padding: 2rem;
+  padding: 10rem;
   text-align: center;
-  background-image: url("https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=");
+  background-image: url("/assets/img/banner-image.webp");
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover; /* Ensures the image covers the entire div */
@@ -84,7 +81,7 @@ nav a {
 
 .why-choose-us {
   background-color: #fff;
-  padding: 1.5rem;
+  padding: 0.5rem;
   width: 80%;
   max-width: 400px;
   border: 1px solid #ddd;
@@ -93,7 +90,7 @@ nav a {
 }
 
 .why-choose-us h2 {
-  font-size: 1.9rem;
+  font-size: 50px;
   margin-bottom: 1rem;
 }
 
