@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/index.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/navbar.css" />
     <!-- Footer styles -->
     <link rel="stylesheet" href="./assets/css/cta.css" />
     <!-- CTA styles -->
@@ -26,17 +27,28 @@
             class="logo-image"
           />
         </div>
-        <nav class="nav-menu">
+        <!-- Desktop Menu -->
+        <nav class="nav-menu-desktop">
           <a href="./index.html">Home</a>
           <a href="./pages/about.html">About</a>
           <a href="./pages/services.html">Services</a>
           <a href="./pages/resources.html">Resources</a>
           <a href="./pages/contact.html">Contact</a>
         </nav>
-        <div class="hamburger-menu" onclick="toggleMenu()">
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger-menu" onclick="toggleMobileMenu()">
           <i class="fas fa-bars"></i>
         </div>
       </div>
+
+      <!-- Mobile Menu -->
+      <nav class="nav-menu-mobile" id="navMenuMobile">
+        <a href="./index.html">Home</a>
+        <a href="./pages/about.html">About</a>
+        <a href="./pages/services.html">Services</a>
+        <a href="./pages/resources.html">Resources</a>
+        <a href="./pages/contact.html">Contact</a>
+      </nav>
     </header>
 
     <section class="hero-banner">
@@ -48,11 +60,26 @@
     </section>
 
     <section class="qoutes">
-      <p>"Healing takes courage, and we all have courage, even if we have to dig a little to find it." – Tori Amos</p>
-      <p>"Mental health…is not a destination, but a process. It’s about how you drive, not where you’re going." – Noam Shpancer</p>
-      <p>"There is hope, even when your brain tells you there isn’t." – John Green</p>
-      <p>"You don’t have to control your thoughts. You just have to stop letting them control you." — Dan Millman</p>
-      <p>"Healing takes time, and asking for help is a courageous step." — Mariska Hargitay</p>
+      <p>
+        "Healing takes courage, and we all have courage, even if we have to dig
+        a little to find it." – Tori Amos
+      </p>
+      <p>
+        "Mental health…is not a destination, but a process. It’s about how you
+        drive, not where you’re going." – Noam Shpancer
+      </p>
+      <p>
+        "There is hope, even when your brain tells you there isn’t." – John
+        Green
+      </p>
+      <p>
+        "You don’t have to control your thoughts. You just have to stop letting
+        them control you." — Dan Millman
+      </p>
+      <p>
+        "Healing takes time, and asking for help is a courageous step." —
+        Mariska Hargitay
+      </p>
     </section>
 
     <!-- Call-to-Action Section -->
