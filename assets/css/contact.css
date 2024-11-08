@@ -103,6 +103,7 @@ nav a {
 
 .info-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 2rem;
   margin: 2rem 0;
@@ -128,7 +129,7 @@ nav a {
 }
 
 .office-hours p{
-  text-align: left;
+  text-align: center;
   padding: 5px;
 }
 
@@ -179,6 +180,11 @@ nav a {
   .navbar {
     flex-direction: column;
     align-items: center;
+  }
+
+  .contact-section-row {
+    display: flex;
+    flex-direction: column;
   }
 
   .navbar a {

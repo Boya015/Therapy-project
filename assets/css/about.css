@@ -123,7 +123,7 @@ nav a {
 }
 
 .therapist-image img {
-  height: 470px;
+  height: 570px;
   object-fit: contain;
   object-fit: cover; /* Ensures the image fills the entire div */
   object-position: center; /* Centers the image within the div */
@@ -168,12 +168,16 @@ nav a {
 
   .bio-text,
   .therapist-image {
-    width: 100%;
+    width: 300px;
     margin-bottom: 20px;
   }
 
   .bio-text {
     font-size: 1rem;
+  }
+
+  .info-box {
+    width: 300px;
   }
 
   .logo {

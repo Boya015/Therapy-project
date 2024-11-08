@@ -57,7 +57,7 @@ nav a {
   }
 
 .services-section {
-    padding: 2rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,6 +95,43 @@ nav a {
     /* Optional: add shadow, padding, border, or other styling */
     overflow: hidden; /* Prevents any overflow when zooming */
     cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none; /* Hidden by default */
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #FFCCEA;
+  padding: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+.modal h3, p {
+   color: #555;
+    font-size: 1rem;
+    font-family: "Itim", cursive;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
