@@ -92,6 +92,19 @@ nav a {
   color: #333;
 }
 
+@media (max-width: 1024px) {
+  .resources-heading h2 {
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width: 600px){
+  .resources-heading{
+    min-width: 300px;
+  }
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .navbar {
@@ -112,5 +125,9 @@ nav a {
   .logo {
     margin: 0 auto 15px;
     display: block;
+  }
+
+  .resources-heading h2 {
+    font-size: 30px;
   }
 }

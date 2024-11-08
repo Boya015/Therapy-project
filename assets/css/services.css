@@ -97,6 +97,20 @@ nav a {
     cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+  .Service-heading h2 {
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width: 600px){
+  .Service-heading{
+    min-width: 300px;
+  }
+}
+
+
 .service-item:hover {
     transform: scale(1.10); /* Slight zoom-in effect */
 }
@@ -111,6 +125,9 @@ nav a {
         display: none;
         padding: 10px 0;
         font-size: 1.2rem;
+      }
+      .Service-heading h2 {
+        font-size: 30px;
       }
 
       .service-grid {

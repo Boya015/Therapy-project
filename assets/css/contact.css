@@ -162,6 +162,19 @@ nav a {
   background-color: #bbb;
 }
 
+@media (max-width: 1024px) {
+  .contact-headingh2 {
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width: 600px){
+  .contact-heading{
+    min-width: 300px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -180,6 +193,10 @@ nav a {
     gap: 15px;
     width: 100%;
     align-items: center;
+  }
+
+  .contact-heading h2 {
+    font-size: 30px;
   }
 
   .contact-form input,

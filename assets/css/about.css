@@ -106,11 +106,13 @@ nav a {
 
 .therapist-image {
   flex: 1;
-  background-color: #999;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 35px;
+  padding-left: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   text-align: center;
@@ -126,7 +128,21 @@ nav a {
   object-fit: cover; /* Ensures the image fills the entire div */
   object-position: center; /* Centers the image within the div */
   border-radius: 8px; /* Optional: adds rounded corners */
+ 
 }
+
+@media(max-width: 1024px) {
+  .About-us h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px){
+  .About-us {
+    min-width: 300px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .navbar {
@@ -139,6 +155,10 @@ nav a {
     padding: 10px 0;
     font-size: 1.2rem;
   }
+
+   .About-us h2 {
+    font-size: 30px;
+   }
 
   .about-content {
     flex-direction: column;
