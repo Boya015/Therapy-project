@@ -109,7 +109,7 @@ nav a {
   margin: 2rem 0;
 }
 
-.location {
+.contact-info {
   text-align: center;
   background-color: #fff;
   padding: 1rem;
@@ -134,18 +134,18 @@ nav a {
 }
 
 .office-hours h2,
-.location h2 {
+.contact-info  h2 {
   color: #333;
   margin-bottom: 1rem;
 }
 
-.location a {
+.contact-info  a {
   color: #0073e6;
   text-decoration: none;
   font-weight: bold;
 }
 
-.location a:hover {
+.contact-info  a:hover {
   text-decoration: underline;
 }
 
@@ -159,12 +159,13 @@ nav a {
   cursor: pointer;
 }
 
+
 .submit-btn:hover {
-  background-color: #bbb;
+  background-color: #C8A7C4;
 }
 
 @media (max-width: 1024px) {
-  .contact-headingh2 {
+  .contact-heading h2 {
     font-size: 40px;
   }
 }
