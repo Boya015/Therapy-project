@@ -1,6 +1,7 @@
-const handleSubmit = async (event) => {
+document.getElementById("contact-form").addEventListener("submit", async (event) => {
     event.preventDefault();
-    const token = localStorage.getItem("authToken"); // Retrieve the stored auth token after login
+
+    const token = localStorage.getItem("authToken"); // Replace with actual token retrieval logic
 
     const contactData = {
         name: document.getElementById("name").value,
@@ -8,11 +9,11 @@ const handleSubmit = async (event) => {
         message: document.getElementById("message").value,
     };
 
-    const response = await fetch("https://localhost:3000/api/contact", {
+    const response = await fetch("http://localhost:3000/api/contact", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": `Bearer ${token}`, // Authorization header with the token
+            "Authorization": `Bearer ${token}`,
         },
         body: JSON.stringify(contactData),
     });
@@ -22,4 +23,4 @@ const handleSubmit = async (event) => {
     } else {
         alert("Error sending message.");
     }
-};
+});

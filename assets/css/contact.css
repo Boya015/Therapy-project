@@ -75,7 +75,7 @@ nav a {
   gap: 90px;
 }
 
-.contact-form {
+#contact-form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -83,20 +83,20 @@ nav a {
   width: 100%;
 }
 
-.contact-form label {
+#contact-form label {
   font-weight: bold;
   color: #555;
 }
 
-.contact-form input,
-.contact-form textarea {
+#contact-form input,
+#contact-form textarea {
   padding: 0.5rem;
   border: 1px solid #ddd;
   border-radius: 5px;
   width: 100%;
 }
 
-.contact-form textarea {
+#contact-form textarea {
   resize: vertical;
   height: 100px;
 }
@@ -194,7 +194,7 @@ nav a {
     font-size: 1.2rem;
   }
 
-  .contact-form {
+  #contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -206,8 +206,8 @@ nav a {
     font-size: 30px;
   }
 
-  .contact-form input,
-  .contact-form textarea {
+  #contact-form input,
+  #contact-form textarea {
     width: 100%;
     font-size: 1rem;
   }
