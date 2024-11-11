@@ -8,7 +8,7 @@ const handleSubmit = async (event) => {
         message: document.getElementById("message").value,
     };
 
-    const response = await fetch("https://your-backend-url.com/api/contact", {
+    const response = await fetch("https://localhost:3000/api/contact", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
