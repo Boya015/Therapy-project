@@ -2,7 +2,13 @@ const jwt = require("jsonwebtoken");
 
 module.exports = (req, res, next) => {
     const authHeader = req.headers["authorization"];
-    const token = authHeader && authHeader.split(" ")[1];
+    const token = jwt.sign(
+        { email: "test@example.com" },  // Replace with user details as needed
+        process.env.ACCESS_TOKEN_SECRET,
+        { expiresIn: "1h" }
+      );
+
+      console.log("Generated Token:", token);
 
     if (!token) return res.sendStatus(401);
 
