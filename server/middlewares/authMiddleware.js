@@ -1,7 +1,6 @@
 const jwt = require("jsonwebtoken");
 
 module.exports = (req, res, next) => {
-    const authHeader = req.headers["authorization"];
     const token = jwt.sign(
         { email: "test@example.com" },  // Replace with user details as needed
         process.env.ACCESS_TOKEN_SECRET,
