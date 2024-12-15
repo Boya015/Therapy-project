@@ -11,8 +11,13 @@
 }
 
 .nav-menu-desktop {
+  color: black;
   display: flex;
   gap: 1rem;
+}
+
+.nav-menu-desktop > a {
+  color: black;
 }
 
 .hamburger-menu {
