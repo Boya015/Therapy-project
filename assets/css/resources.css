@@ -33,7 +33,7 @@ nav a {
   background-color: #e0e0e0;
   padding: 10rem;
   text-align: center;
-  background-image: url("/assets/img/banner-image.webp");
+  background-image: url("/assets/img/banner-image-1.webp");
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover; /* Ensures the image covers the entire div */
