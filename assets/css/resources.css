@@ -41,7 +41,6 @@ nav a {
 }
 
 .resources-heading {
-  background-color: #fff;
   padding: 0.5rem;
   width: 80%;
   max-width: 400px;
@@ -52,6 +51,7 @@ nav a {
 
 .resources-heading h2 {
   font-size: 50px;
+  color: snow;
 }
 
 /* Resources Section */

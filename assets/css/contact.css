@@ -42,7 +42,6 @@ nav a {
 }
 
 .contact-heading {
-  background-color: #fff;
   padding: 0.5rem;
   width: 80%;
   max-width: 400px;
@@ -53,6 +52,7 @@ nav a {
 
 .contact-heading h2 {
   font-size: 50px;
+  color: snow;
 }
 
 .contact-section {

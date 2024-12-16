@@ -65,7 +65,6 @@ nav a {
 }
 
 .About-us {
-  background-color: #fff;
     padding: 0.5rem;
     width: 80%;
     max-width: 400px;
@@ -76,6 +75,7 @@ nav a {
 
 .About-us h2 {
   font-size: 50px;
+  color: snow;
 }
 
 .info-box {
