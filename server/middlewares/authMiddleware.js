@@ -1,18 +1,21 @@
 const jwt = require("jsonwebtoken");
 
 module.exports = (req, res, next) => {
-    const token = jwt.sign(
-        { email: "test@example.com" },  // Replace with user details as needed
-        process.env.ACCESS_TOKEN_SECRET,
-        { expiresIn: "1h" }
-      );
+    // Extract the token from the request headers or authorization header
+    const authHeader = req.headers["authorization"];
+    const token = authHeader && authHeader.split(" ")[1];
 
-      console.log("Generated Token:", token);
+    if (!token) {
+        return res.status(401).json({ message: "Access token missing or invalid" });
+    }
 
-    if (!token) return res.sendStatus(401);
-
+    // Verify the token
     jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, user) => {
-        if (err) return res.sendStatus(403);
+        if (err) {
+            return res.status(403).json({ message: "Invalid token" });
+        }
+
+        // Attach the user data from the token payload to the request
         req.user = user;
         next();
     });
