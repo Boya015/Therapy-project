@@ -2,7 +2,7 @@
 footer {
     background-color: #C8A7C4;
     padding: 40px 20px;
-    color: black;
+    color: #3c2727;
     text-align: center;
 }
 
@@ -24,13 +24,13 @@ footer {
 .footer-column h4 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: black;
+    color: #3c2727;
 }
 
 .footer-column p {
     font-size: 14px;
     line-height: 1.6;
-    color: black;
+    color: #3c2727;
     margin-bottom: 10px;
 }
 
@@ -44,7 +44,7 @@ footer {
 }
 
 .footer-column ul li a {
-    color: black;
+    color: #3c2727;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
@@ -64,7 +64,7 @@ footer {
 
 .social-icons a {
     font-size: 24px;
-    color: black;
+    color: #3c2727;
     transition: color 0.3s ease;
 }
 
@@ -78,5 +78,5 @@ footer {
     margin-top: 20px;
     padding-top: 15px;
     font-size: 12px;
-    color: black;
+    color: #3c2727;
 }

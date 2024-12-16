@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -86,9 +85,9 @@ nav a {
     text-align: center;
     border: none;
     border-radius: 8px;
-    color: black;
+    color: #3c2727;
     font-size: 1rem;
-    font-family: "Itim", cursive;
+    font-family: "Alata", sans-serif;
     font-weight: 400;
     font-style: normal;
     transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
@@ -120,10 +119,15 @@ nav a {
   text-align: center;
 }
 
-.modal h3, p {
-   color: black;
+.modal h3 {
+   color: #3c2727;
     font-size: 1rem;
-    font-family: "Itim", cursive;
+    font-family: "Alata", sans-serif;
+}
+.modal p {
+  color: #3c2727;
+   font-size: 1rem;
+   font-family: "Alata", sans-serif;
 }
 
 .close-btn {
