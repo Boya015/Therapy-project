@@ -1,8 +1,8 @@
 const express = require("express");
-const { handleContactForm } = require("../controllers/contactController");
-const authenticateToken = require("../middlewares/authMiddleware");
+const { sendAppointmentEmail } = require("../controllers/contactController");
 
 const router = express.Router();
-router.post("/", authenticateToken, handleContactForm);
+
+router.post("/contact", sendAppointmentEmail);
 
 module.exports = router;
