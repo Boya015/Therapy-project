@@ -1,3 +1,137 @@
 2025-01-21 03:47:24 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
 2025-01-21 03:47:24 - Sending email to: johanncareer@gmail.com
 2025-01-21 03:47:27 - Email sent successfully.
+2025-02-10 14:00:22 - Invalid request method: GET
+2025-02-10 14:00:34 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 14:00:34 - Sending email to: boyandlovu@gmail.com
+2025-02-10 14:00:37 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 14:01:12 - Invalid request method: GET
+2025-02-10 14:01:14 - Invalid request method: GET
+2025-02-10 14:01:15 - Invalid request method: GET
+2025-02-10 14:01:45 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 14:01:45 - Sending email to: boyandlovu@gmail.com
+2025-02-10 14:01:48 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 14:01:56 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 14:01:56 - Sending email to: boyandlovu@gmail.com
+2025-02-10 14:01:58 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 14:06:28 - Invalid request method: GET
+2025-02-10 14:06:31 - Invalid request method: GET
+2025-02-10 14:06:32 - Invalid request method: GET
+2025-02-10 14:06:35 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 14:06:35 - Sending email to: boyandlovu@gmail.com
+2025-02-10 14:06:37 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 14:07:38 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 14:07:38 - Sending email to: boyandlovu@gmail.com
+2025-02-10 14:07:41 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 14:08:33 - Invalid request method: GET
+2025-02-10 14:11:19 - Invalid request method: GET
+2025-02-10 14:11:53 - Invalid request method: GET
+2025-02-10 14:11:58 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 14:11:58 - Sending email to: boyandlovu@gmail.com
+2025-02-10 14:12:01 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 14:13:00 - Invalid request method: GET
+2025-02-10 14:13:01 - Invalid request method: GET
+2025-02-10 14:13:02 - Invalid request method: GET
+2025-02-10 14:13:05 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 14:13:05 - Sending email to: boyandlovu@gmail.com
+2025-02-10 14:13:07 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 14:13:29 - Invalid request method: GET
+2025-02-10 14:17:44 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 14:17:44 - Sending email to: boyandlovu@gmail.com
+2025-02-10 14:17:47 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 14:18:25 - Invalid request method: GET
+2025-02-10 14:23:40 - Invalid request method: GET
+2025-02-10 14:23:41 - Invalid request method: GET
+2025-02-10 14:27:47 - Invalid request method: GET
+2025-02-10 15:12:15 - Invalid request method: GET
+2025-02-10 15:14:14 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:14:14 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:14:17 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:14:25 - Invalid request method: 
+2025-02-10 15:16:27 - Invalid request method: 
+2025-02-10 15:25:27 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:25:27 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:25:29 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:27:53 - Script executed via CLI, not a web request.
+2025-02-10 15:27:58 - Script executed via CLI, not a web request.
+2025-02-10 15:28:06 - Invalid request method: GET
+2025-02-10 15:28:07 - Invalid request method: GET
+2025-02-10 15:28:16 - Invalid request method: 
+2025-02-10 15:28:26 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:28:26 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:28:29 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:29:32 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:29:32 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:29:36 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:33:02 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:33:02 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:33:05 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:33:07 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:33:07 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:33:10 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:33:45 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:33:45 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:33:48 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:35:24 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:35:24 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:35:27 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:47:10 - Invalid request method: GET
+2025-02-10 15:54:52 - Invalid request method: GET
+2025-02-10 15:54:53 - Invalid request method: GET
+2025-02-10 15:54:59 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-10 15:54:59 - Sending email to: boyandlovu@gmail.com
+2025-02-10 15:55:02 - Exception: SMTP Error: Could not authenticate.
+2025-02-10 15:56:16 - Invalid request method: 
+2025-02-10 15:56:22 - Invalid request method: 
+2025-02-10 15:56:30 - Invalid request method: GET
+2025-02-10 15:56:39 - Invalid request method: GET
+2025-02-10 15:58:26 - Invalid request method: GET
+2025-02-10 15:58:27 - Invalid request method: GET
+2025-02-12 12:16:46 - Invalid request method: GET
+2025-02-12 12:16:55 - Invalid request method: GET
+2025-02-12 12:17:06 - Invalid request method: GET
+2025-02-12 12:26:16 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 12:26:16 - Sending email to: boyandlovu@gmail.com
+2025-02-12 12:26:19 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 12:59:22 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 12:59:22 - Sending email to: boyandlovu@gmail.com
+2025-02-12 12:59:25 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 12:59:49 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 12:59:49 - Sending email to: boyandlovu@gmail.com
+2025-02-12 12:59:52 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 13:02:38 - Invalid request method: 
+2025-02-12 13:04:52 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 13:04:52 - Sending email to: boyandlovu@gmail.com
+2025-02-12 13:04:55 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 13:05:21 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 13:05:21 - Sending email to: boyandlovu@gmail.com
+2025-02-12 13:05:24 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 13:06:05 - Invalid request method: 
+2025-02-12 13:08:15 - Invalid request method: GET
+2025-02-12 13:08:25 - Invalid request method: GET
+2025-02-12 13:09:50 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 13:09:50 - Sending email to: boyandlovu@gmail.com
+2025-02-12 13:09:53 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 13:10:17 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 13:10:17 - Sending email to: boyandlovu@gmail.com
+2025-02-12 13:10:20 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 13:14:04 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 13:14:04 - Sending email to: boyandlovu@gmail.com
+2025-02-12 13:14:08 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 13:40:50 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 13:40:50 - Sending email to: boyandlovu@gmail.com
+2025-02-12 13:40:52 - Exception: SMTP Error: Could not authenticate.
+2025-02-12 13:41:11 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 13:41:11 - Sending email to: boyandlovu@gmail.com
+2025-02-12 13:41:15 - Email sent successfully.
+2025-02-12 14:05:18 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 14:05:18 - Sending email to: boyandlovu@gmail.com
+2025-02-12 14:05:23 - Email sent successfully.
+2025-02-12 14:07:37 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 14:07:37 - Sending email to: boyandlovu@gmail.com
+2025-02-12 14:07:41 - Email sent successfully.
+2025-02-12 14:08:57 - Invalid request method: GET
+2025-02-12 14:09:10 - Invalid request method: 
+2025-02-12 14:09:46 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
+2025-02-12 14:09:46 - Sending email to: snemshengupsych@gmail.com
+2025-02-12 14:09:50 - Email sent successfully.
