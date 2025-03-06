@@ -135,3 +135,5 @@
 2025-02-12 14:09:46 - SMTP configuration set. Host: smtp.gmail.com, Port: 587
 2025-02-12 14:09:46 - Sending email to: snemshengupsych@gmail.com
 2025-02-12 14:09:50 - Email sent successfully.
+2025-02-12 14:46:40 - Invalid request method: GET
+2025-02-17 09:35:36 - Invalid request method: GET
